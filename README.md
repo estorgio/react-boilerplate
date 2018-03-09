@@ -2,6 +2,8 @@
 
 This is a React boilerplate project that I made while I was learning React. It comes preconfigured with Webpack and it works out-of-the-box without additional setup.
 
+Feel free to clone this or check this [live demo](https://estorgio-react-boilerplate.surge.sh/).
+
 ## Commands
 ### `npm run serve`
 Runs `webpack-dev-server` with live-reload so you can code you React apps and preview it in the browser in real-time.
