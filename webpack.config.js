@@ -7,7 +7,8 @@ module.exports = {
     bundle: './src/app.js',
     vendor: [
       'react',
-      'react-dom'
+      'react-dom',
+      'react-router'
     ]
   },
   output: {
