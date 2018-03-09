@@ -30,6 +30,9 @@ module.exports = {
   resolve: {
     extensions: ['.js', ',jsx']
   },
+  devServer: {
+    historyApiFallback: true,
+  },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
       names: ['vendor', 'manifest']
