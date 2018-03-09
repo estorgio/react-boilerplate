@@ -11,3 +11,6 @@ Builds a production-ready version of your app in the `dist ` folder. Copy all yo
 
 ### `npm run clean`
 Removes the `dist` folder so you can start a build from scratch.
+
+## License
+MIT License
