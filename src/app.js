@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Router, browserHistory } from 'react-router';
+
+import './styles.css';
+import routes from './routes';
 
 const App = () => {
   return (
-    <div>
-      <h1>Welcome to React!</h1>
-      <p>This is a boilerplate project. Feel free to use it.</p>
-    </div>
+    <Router history={browserHistory} routes={routes} />
   );
 };
 
