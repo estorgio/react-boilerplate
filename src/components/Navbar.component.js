@@ -26,7 +26,6 @@ export default class Navbar extends Component {
     this.state = {
       currentPage: props.location.pathname
     };
-    console.log("props", props);
   }
 
   onChangeNav(e) {
